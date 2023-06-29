@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8" />
+    <title></title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="./index.css" />
+    <link rel="stylesheet" href="./normalize.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"
+    />
+    <script src="./index.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <script src="https://hammerjs.github.io/dist/hammer.min.js"></script>
+  </head>
+
+  <body>
+    <section class="find">
+      <div
+        class="fing__bg-black"
+        style="
+          position: absolute;
+          top: 0;
+          left: 0;
+          width: 100%;
+          height: 100%;
+          z-index: 1;
+          background: black;
+          opacity: 50%;
+        "
+      ></div>
+      <div class="container" style="position: relative; z-index: 2">
+        <div class="find__wrapper">
+          <div class="find__title">FIND YOUR INSPIRATION</div>
+          <div class="find__text">
+            Browse our curated interior design collection and find a perfect
+            interior door fit for your design.
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="menu">
+      <div class="container">
+        <ul class="menu__ul">
+          <div class="menu__btn"><img src="./assets/icon.svg" alt="" /></div>
+          <li>Transitional</li>
+          <li>Contemporary</li>
+          <li>Scandinavian</li>
+          <li>Minimalist</li>
+          <li>Coastal</li>
+          <li>Japandi</li>
+          <li>Modern</li>
+        </ul>
+      </div>
+    </section>
+
+    <section style="padding-top: 51px" class="contemp">
+      <div class="container">
+        <div class="contemp__wrapper wrapper">
+          <div class="text-and-image-wrapper">
+            <div class="top">
+              <div class="contemp__subtitle subtitle">
+                Lorem ipsum dolor sit amet
+              </div>
+              <div class="contemp__title title">Contemporary</div>
+              <div class="contemp__block block">
+                <div class="contemp__text text">
+                  Сontemporary interior design is a type of interior design
+                  style which refers to trends that are ruling now- at this very
+                  moment. An interior design style that was “contemporary” in
+                  the 2010s is not necessarily contemporary now, but a design
+                  that was “modern” back then still remains to be “modern”
+                </div>
+                <ul class="contemp__icons-wrapper icons-wrapper">
+                  <li class="contemp__li li">
+                    <img src="./assets/accept.svg" alt="accept" />
+                    <div class="contemp__li-text li-text">
+                      Lorem ipsum dolor sit amet
+                    </div>
+                  </li>
+                  <li
+                    class="contemp__li li"
+                    style="margin-left: 10px; margin-right: 10px"
+                  >
+                    <img src="./assets/accept.svg" alt="accept" />
+                    <div class="contemp__li-text li-text">
+                      Lorem ipsum dolor sit amet
+                    </div>
+                  </li>
+                  <li class="contemp__li li">
+                    <img src="./assets/accept.svg" alt="accept" />
+                    <div class="contemp__li-text li-text">
+                      Lorem ipsum dolor sit amet
+                    </div>
+                  </li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="image">
+              <img
+                class="big-image"
+                src="./assets/contemporary/main.jpg"
+                alt=""
+              />
+              <img
+                class="small-image"
+                src="./assets/contemporary/small.jpg"
+                alt=""
+              />
+            </div>
+          </div>
+        </div>
+
+        <div class="contemp__dors dors">
+          <div class="contemp__left-btn left-btn slider-btn"><</div>
+          <div class="swiper contempSwiper">
+            <div class="swiper-wrapper" style="max-width: 1300px">
+              <div class="swiper-slide">
+                <img src="./assets/contemporary/1.png" alt="" />
+                <div class="slider__text">Arvika</div>
+              </div>
+              <div class="swiper-slide">
+                <img src="./assets/contemporary/2.png" alt="" />
+                <div class="slider__text">Arvika</div>
+              </div>
+              <div class="swiper-slide">
+                <img src="./assets/contemporary/3.png" alt="" />
+                <div class="slider__text">Arvika</div>
+              </div>
+              <div class="swiper-slide">
+                <img src="./assets/contemporary/4.png" alt="" />
+                <div class="slider__text">Palladio 4H</div>
+              </div>
+              <div class="swiper-slide">
+                <img src="./assets/contemporary/5.png" alt="" />
+                <div class="slider__text">Palladio 4H</div>
+              </div>
+              <div class="swiper-slide">
+                <img src="./assets/contemporary/1.png" alt="" />
+                <div class="slider__text">Smart Pro H3G</div>
+              </div>
+              <div class="swiper-slide">
+                <img src="./assets/contemporary/2.png" alt="" />
+                <div class="slider__text">Arvika</div>
+              </div>
+              <div class="swiper-slide">
+                <img src="./assets/contemporary/3.png" alt="" />
+                <div class="slider__text">Arvika12</div>
+              </div>
+              <div class="swiper-slide">
+                <img src="./assets/contemporary/4.png" alt="" />
+                <div class="slider__text">Arvika321</div>
+              </div>
+              <div class="swiper-slide">
+                <img src="./assets/contemporary/5.png" alt="" />
+                <div class="slider__text">Arvika1221</div>
+              </div>
+            </div>
+          </div>
+
+          <div class="contemp__right-btn right-btn slider-btn">></div>
+        </div>
+      </div>
+      <div class="like__wrapper">
+        <div class="like__text">
+          Like what you see? Find more inspiration in our catalog.
+        </div>
+        <a href="" class="link"><span>BROWSE CATEGORY</span></a>
+      </div>
+    </section>
+
+    <section class="japandi">
+      <div class="container">
+        <div class="japandi__wrapper wrapper">
+          <div class="text-and-image-wrapper">
+            <div class="top">
+              <div class="japandi__subtitle subtitle">
+                Lorem ipsum dolor sit amet
+              </div>
+              <div class="japandi__title title">japandi</div>
+              <div class="japandi__block block" style="align-items: center">
+                <div class="japandi__text text">
+                  The japandi interior design is a combination of Scandinavian
+                  and Japanese designs.
+                </div>
+                <ul class="japandi__icons-wrapper icons-wrapper">
+                  <li class="japandi__li li">
+                    <img src="./assets/accept.svg" alt="accept" />
+                    <div class="japandi__li-text li-text">
+                      Lorem ipsum dolor sit amet
+                    </div>
+                  </li>
+                  <li
+                    class="japandi__li li"
+                    style="margin-left: 10px; margin-right: 10px"
+                  >
+                    <img src="./assets/accept.svg" alt="accept" />
+                    <div class="japandi__li-text li-text">
+                      Lorem ipsum dolor sit amet
+                    </div>
+                  </li>
+                  <li class="japandi__li li">
+                    <img src="./assets/accept.svg" alt="accept" />
+                    <div class="japandi__li-text li-text">
+                      Lorem ipsum dolor sit amet
+                    </div>
+                  </li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="image">
+              <img class="big-image" src="./assets/japandi/main.jpg" alt="" />
+              <img
+                class="small-image"
+                src="./assets/japandi/small.jpg"
+                alt=""
+              />
+            </div>
+          </div>
+        </div>
+
+        <div class="japandi__dors dors">
+          <div class="japandi__left-btn left-btn slider-btn"><</div>
+          <div class="swiper japandiSwiper">
+            <div class="swiper-wrapper" style="max-width: 1300px">
+              <div class="swiper-slide">
+                <img src="./assets/japandi/1.png" alt="" />
+                <div class="slider__text">Alba</div>
+              </div>
+              <div class="swiper-slide">
+                <img src="./assets/japandi/2.png" alt="" />
+                <div class="slider__text">Oxford</div>
+              </div>
+              <div class="swiper-slide">
+                <img src="./assets/japandi/3.png" alt="" />
+                <div class="slider__text">Arvika</div>
+              </div>
+              <div class="swiper-slide">
+                <img src="./assets/japandi/4.png" alt="" />
+                <div class="slider__text">Palladio 4H</div>
+              </div>
+              <div class="swiper-slide">
+                <img src="./assets/japandi/5.png" alt="" />
+                <div class="slider__text">Alba</div>
+              </div>
+              <div class="swiper-slide">
+                <img src="./assets/japandi/1.png" alt="" />
+                <div class="slider__text">Smart Pro H3G</div>
+              </div>
+              <div class="swiper-slide">
+                <img src="./assets/japandi/2.png" alt="" />
+                <div class="slider__text">Arvika</div>
+              </div>
+              <div class="swiper-slide">
+                <img src="./assets/japandi/3.png" alt="" />
+                <div class="slider__text">Arvika12</div>
+              </div>
+              <div class="swiper-slide">
+                <img src="./assets/japandi/4.png" alt="" />
+                <div class="slider__text">Arvika321</div>
+              </div>
+              <div class="swiper-slide">
+                <img src="./assets/japandi/5.png" alt="" />
+                <div class="slider__text">Arvika1221</div>
+              </div>
+            </div>
+          </div>
+
+          <div class="japandi__right-btn right-btn slider-btn">></div>
+        </div>
+      </div>
+      <div class="like__wrapper">
+        <div class="like__text">
+          Like what you see? Find more inspiration in our catalog.
+        </div>
+        <a href="" class="link"><span>BROWSE CATEGORY</span></a>
+      </div>
+    </section>
+
+    <section class="mini" style="padding-top: 93px">
+      <div class="container">
+        <div class="mini__wrapper wrapper">
+          <div class="text-and-image-wrapper">
+            <div class="top">
+              <div class="mini__subtitle subtitle">
+                Lorem ipsum dolor sit amet
+              </div>
+              <div class="mini__title title">minimalist</div>
+              <div class="mini__block block">
+                <div class="mini__text text">
+                  The style emphasizes minimalism in all aspects of interior
+                  design, from simple furnishing to neutral color palettes, to
+                  functional but not flamboyant accessories.
+                </div>
+                <ul class="mini__icons-wrapper icons-wrapper">
+                  <li class="mini__li li">
+                    <img src="./assets/accept.svg" alt="accept" />
+                    <div class="mini__li-text li-text">
+                      Lorem ipsum dolor sit amet
+                    </div>
+                  </li>
+                  <li
+                    class="mini__li li"
+                    style="margin-left: 10px; margin-right: 10px"
+                  >
+                    <img src="./assets/accept.svg" alt="accept" />
+                    <div class="mini__li-text li-text">
+                      Lorem ipsum dolor sit amet
+                    </div>
+                  </li>
+                  <li class="mini__li li">
+                    <img src="./assets/accept.svg" alt="accept" />
+                    <div class="mini__li-text li-text">
+                      Lorem ipsum dolor sit amet
+                    </div>
+                  </li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="image">
+              <img class="big-image" src="./assets/mini/main.jpg" alt="" />
+              <img class="small-image" src="./assets/mini/small.jpg" alt="" />
+            </div>
+          </div>
+        </div>
+
+        <div class="mini__dors dors">
+          <div class="mini__left-btn left-btn slider-btn"><</div>
+          <div class="swiper miniSwiper">
+            <div class="swiper-wrapper" style="max-width: 1300px">
+              <div class="swiper-slide">
+                <img src="./assets/mini/1.png" alt="" />
+                <div class="slider__text">Arvika</div>
+              </div>
+              <div class="swiper-slide">
+                <img src="./assets/mini/2.png" alt="" />
+                <div class="slider__text">Arvika</div>
+              </div>
+              <div class="swiper-slide">
+                <img src="./assets/mini/3.png" alt="" />
+                <div class="slider__text">Arvika</div>
+              </div>
+              <div class="swiper-slide">
+                <img src="./assets/mini/4.png" alt="" />
+                <div class="slider__text">Palladio 4H</div>
+              </div>
+              <div class="swiper-slide">
+                <img src="./assets/mini/5.png" alt="" />
+                <div class="slider__text">Palladio 4H</div>
+              </div>
+              <div class="swiper-slide">
+                <img src="./assets/mini/1.png" alt="" />
+                <div class="slider__text">Smart Pro H3G</div>
+              </div>
+              <div class="swiper-slide">
+                <img src="./assets/mini/2.png" alt="" />
+                <div class="slider__text">Arvika</div>
+              </div>
+              <div class="swiper-slide">
+                <img src="./assets/mini/3.png" alt="" />
+                <div class="slider__text">Arvika12</div>
+              </div>
+              <div class="swiper-slide">
+                <img src="./assets/mini/4.png" alt="" />
+                <div class="slider__text">Arvika321</div>
+              </div>
+              <div class="swiper-slide">
+                <img src="./assets/mini/5.png" alt="" />
+                <div class="slider__text">Arvika1221</div>
+              </div>
+            </div>
+          </div>
+
+          <div class="mini__right-btn right-btn slider-btn">></div>
+        </div>
+      </div>
+      <div class="like__wrapper">
+        <div class="like__text">
+          Like what you see? Find more inspiration in our catalog.
+        </div>
+        <a href="" class="link"><span>BROWSE CATEGORY</span></a>
+      </div>
+    </section>
+  </body>
+</html>

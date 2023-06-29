@@ -1,0 +1,53 @@
+.subtitle {
+  font-family: Poppins;
+  font-size: 17px;
+  font-weight: 700;
+  line-height: 21px;
+  color: rgba(50, 201, 124, 1);
+  text-transform: uppercase;
+}
+
+.title {
+  font-size: 54px;
+  font-family: Poppins;
+  font-weight: 700;
+  line-height: 60px;
+  text-transform: uppercase;
+}
+
+.text {
+  font-size: 16px;
+  font-family: Lato;
+  font-weight: 400;
+  line-height: 28px;
+}
+
+.green {
+  color: #32c97c !important;
+}
+
+.backtext {
+  color: white;
+  opacity: 0.25;
+  font-size: 160px;
+  font-family: Poppins;
+  font-weight: 700;
+  line-height: 160px;
+  text-transform: uppercase;
+  text-shadow: -0 -1px 0 #32c97c, 0 -1px 0 #32c97c, -0 1px 0 #32c97c,
+    0 1px 0 #32c97c, -1px -0 0 #32c97c, 1px -0 0 #32c97c, -1px 0 0 #32c97c,
+    1px 0 0 #32c97c, -1px -1px 0 #32c97c, 1px -1px 0 #32c97c, -1px 1px 0 #32c97c,
+    1px 1px 0 #32c97c, -1px -1px 0 #32c97c, 1px -1px 0 #32c97c,
+    -1px 1px 0 #32c97c, 1px 1px 0 #32c97c;
+}
+
+@media (max-width: 600px) {
+  .text {
+    color: var(--text, #333332);
+    font-size: 15px;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 21px;
+  }
+}
